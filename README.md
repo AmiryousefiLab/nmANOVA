@@ -9,4 +9,4 @@ Nonmetric Analysis of Variance
 
 **SD2.xslx** is a file with supplementary information. It contains combination sensitivity scores from O'Neil study (O'Neil et.al. 2016) obtained from DrugComb portal (Section: Drug combination sensitivity scoring for cell lines).
 
-**SD3.xlsx** is a file with supplementary information. It provides Kullback-Leibler scores for the bladder cancer dataset used in the study (Section: Kullback-Leibler divergence for gene expression data).
+**SD3.RData** is a file with supplementary information. It provides Kullback-Leibler scores for the bladder cancer dataset used in the study (Section: Kullback-Leibler divergence for gene expression data).
