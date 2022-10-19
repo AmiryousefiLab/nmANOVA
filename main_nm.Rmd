@@ -204,8 +204,6 @@ nmANOVA <- function( diss_data, partition, N_sampling = 1, subpartition = NULL )
 
 
 
-old version of nmANOVA (no NA consideration)
-
 
 
 #functions needed to perform simulations with different distributions and group sizes
