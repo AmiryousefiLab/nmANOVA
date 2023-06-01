@@ -204,7 +204,7 @@ nmANOVA <- function( diss_data, partition, N_sampling = 1, subpartition = NULL )
 
 #Figure 1 A
 
-#YOU DO NOT NEED TO RUN THIS CODE TO REPRODUCE THE FIGURE 1 B, AS WE SAVED THE RESULTS IN figure1B_p_values.RData, figure1B_p_values_points.RData ( run from load("figure1B_p_values_points.RData") )
+#YOU DO NOT NEED TO RUN THIS CODE TO REPRODUCE THE FIGURE 1 A, AS WE SAVED THE RESULTS IN figure1A_p_values.RData, figure1A_p_values_points.RData ( run from load("figure1A_p_values_points.RData") )
 ###################
 
 #functions to generate partitions based on selected distributions
@@ -464,9 +464,9 @@ ggplot( df, aes( x =  num, y = ( log(x) ) ) ) +
 ###################
 
 
-#Figure 1 C
+#Figure 1 B
 
-#YOU DO NOT NEED TO RUN THIS CODE TO REPRODUCE THE FIGURE 1 C, AS WE SAVED THE RESULTS IN figure1C_p_values.RData, figure1C_p_values_points.RData ( run from load("figure1C_p_values_points.RData") )
+#YOU DO NOT NEED TO RUN THIS CODE TO REPRODUCE THE FIGURE 1 B, AS WE SAVED THE RESULTS IN figure1B_p_values.RData, figure1B_p_values_points.RData ( run from load("figure1B_p_values_points.RData") )
 #########################
 
 distribution <- 'uniform' #distribution for the simulation matrix
