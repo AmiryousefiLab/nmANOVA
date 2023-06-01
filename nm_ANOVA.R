@@ -137,7 +137,7 @@ nmANOVA <- function( diss_data, partition, N_sampling = 1, subpartition = NULL )
           non_na_cur_partition <-  sum( is.na( cur_partition ) == FALSE )
           delta_jj_prime <- mean( cur_partition,  na.rm = TRUE )
           
-          prop_num <- floor( non_na_cur_partition  *  non_na_vec_within  / as.numeric( num_off_diag )  ) 
+          prop_num <- floor( non_na_cur_partition  *  ( non_na_vec_within  / as.numeric( num_off_diag ) )  ) 
           
           if( prop_num == 0 ){
             print( 'prop_num = 0 -> changed to 1' )
@@ -152,7 +152,7 @@ nmANOVA <- function( diss_data, partition, N_sampling = 1, subpartition = NULL )
           delta_prop <- mean( diagonal_sampling[ sample_ind ],  na.rm = TRUE )
           
           
-          if( floor( non_na_cur_partition  *  non_na_vec_within  / as.numeric( num_off_diag )  )  != 0 ){ diagonal_sampling <- diagonal_sampling[ -sample_ind ] }
+          if( floor( non_na_cur_partition  * ( non_na_vec_within  / as.numeric( num_off_diag ) ) )  != 0 ){ diagonal_sampling <- diagonal_sampling[ -sample_ind ] }
           prop_sampl_df$prop_mean[k] <- delta_prop
           
           
